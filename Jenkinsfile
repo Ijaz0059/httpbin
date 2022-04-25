@@ -29,7 +29,7 @@ pipeline {
     }
     stage('Run docker image') {
        steps {  
-         sh 'docker run -it -dp 80:80 $DOCKERHUB_CREDENTIALS_USR/httpbin:v$BUILD_NUMBER' // Optional
+         sh 'docker run -it -dp 81:80 $DOCKERHUB_CREDENTIALS_USR/httpbin:v$BUILD_NUMBER' // Optional
        }
     }
   }
