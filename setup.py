@@ -1,4 +1,4 @@
-# setup.py
+# setup.py is a setup file
 from setuptools import setup, find_packages
 import os
 import io
